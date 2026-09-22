@@ -10,7 +10,7 @@
     <groupId>com.democompany</groupId>
     <artifactId>first-demo-project</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <name>first-demo-project</name>
 
@@ -55,7 +55,7 @@
 
             <plugin>
                  <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-war-plugin</artifactId>
+    <artifactId>maven-jar-plugin</artifactId>
     <version>3.4.0</version>
     <configuration>
         <failOnMissingWebXml>false</failOnMissingWebXml>
